@@ -209,9 +209,9 @@ public class ExcelExportHelper {
 		titleStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND); // ALT_BARS
 		titleStyle.setFillForegroundColor(new XSSFColor(new Color(95, 73, 122)));
 		
-//		titleStyle.setAlignment(HSSFCellStyle.ALIGN_GENERAL); //没生效,用下面两行替换
-		titleStyle.setVerticalAlignment(VerticalAlignment.CENTER);
-		titleStyle.setAlignment(HorizontalAlignment.CENTER);
+	//		titleStyle.setAlignment(HSSFCellStyle.ALIGN_GENERAL); //没生效,用下面两行替换
+			titleStyle.setVerticalAlignment(VerticalAlignment.CENTER);
+			titleStyle.setAlignment(HorizontalAlignment.CENTER);
 		
 		return titleStyle;
 	}
